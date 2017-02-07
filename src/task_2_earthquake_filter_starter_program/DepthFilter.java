@@ -26,7 +26,7 @@ public class DepthFilter implements Filter {
     public String getName() {
         return "DepthFilter";
     }
-
+//
   /*  @Override
     public ArrayList<QuakeEntry> addToList(ArrayList<QuakeEntry> quakeEntries) {
         for (int i = 0; i < quakeEntries.size(); i++) {
