@@ -25,6 +25,11 @@ public class EarthQuakeClient2 {
         return answer;
     }
 
+
+
+
+
+
     public static void quakesWithFilter() {
         EarthQuakeParser parser = new EarthQuakeParser();
         //String source = "http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.atom";

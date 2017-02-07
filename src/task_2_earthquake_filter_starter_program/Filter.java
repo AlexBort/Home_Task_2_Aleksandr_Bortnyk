@@ -13,5 +13,5 @@ public interface Filter {
 
     String getName();
 
-    // ArrayList<QuakeEntry> addToList(Filter filter, ArrayList<QuakeEntry> quakeEntries);
+ //  ArrayList<QuakeEntry> addToList(Filter filter, ArrayList<QuakeEntry> quakeEntries);
 }

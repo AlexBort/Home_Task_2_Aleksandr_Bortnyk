@@ -22,23 +22,14 @@ public class DepthFilter implements Filter {
         if (filter.satisfies())
     }*/
 
+
+
+
     @Override
     public String getName() {
         return "DepthFilter";
     }
-//
-  /*  @Override
-    public ArrayList<QuakeEntry> addToList(ArrayList<QuakeEntry> quakeEntries) {
-        for (int i = 0; i < quakeEntries.size(); i++) {
-            if (satisfies(quakeEntries.get(i))){
-                quakeEntries.add()
-            }
-        }
 
-
-        return null;
-    }
-*/
 
     @Override
     public boolean satisfies(QuakeEntry quakeEntry) {
